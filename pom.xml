@@ -91,6 +91,13 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
         
+        <!-- Add jakarta.persistence-api for JPA support -->
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        
     </dependencies>
     
     <build>
